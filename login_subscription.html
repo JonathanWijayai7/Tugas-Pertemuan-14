@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous" />
+
+    <title>Seputar Covid</title>
+
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow">
+      <div class="container">
+          <a class="navbar-brand" href="Berita Covid.html">
+              <img src="https://cdn.pixabay.com/photo/2020/04/29/07/54/coronavirus-5107715_1280.png" alt="" width="32" height="32" class="rounded-circle">
+              <b>Covid News</b>
+            </a>
+          </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Berita Covid.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="login_subscription.html">Subscription</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Berita.html">Berita</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="more.html">More</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+        
+    <!--Akhir Navbar-->
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col">
+                  <h1>Login for Subscription</h1>
+                  <form class="row g-3 needs-validation" validate>
+                    <div class="col-md-4">
+                      <label for="validationCustom01" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="validationCustom01" required>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustom02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationCustom02" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustomUsername" class="form-label">Username</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationCustom03" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationCustom03" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom04" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationCustom04" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom05" class="form-label">Postal Code</label>
+                      <input type="text" class="form-control" id="validationCustom05" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid postal code.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                    <button type="button" class="btn btn-primary" id="liveAlertBtn">Submit</button>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <a href="Berita Covid.html"> --Back home-- </a>
+    </body>
+</html>
